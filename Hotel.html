@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+	<title>Hotel</title>
+</head>
+<body bgcolor="#ebeced" align="center">
+	<style type="text/css">
+		#first-bar {
+			background: white;
+			height: 180px;
+			width: 100%;
+			box-shadow: 0px 0px 10px 0px grey;
+			margin-right: 20px;
+			margin-left: 0px;
+		}
+		#h-image {
+			height: 180px;
+			float: left;
+		}
+		#h-name-block {
+			float: left;
+			font-family: sans-serif;
+			position: relative;
+			left: 10px;
+			height: 60px;
+    		width: 40%;
+			border-bottom: 1px solid #cdd4dc ;
+		}
+		#h-name {
+			position: relative;
+			top: -11px;
+			/* float: left; */
+			color: #37454d;
+			margin-right: 225px;
+			width: 63%;
+		}
+		#deal-cancel {
+			display: inline-block;
+			height: 100px;
+			background-color: #ecf3e6;
+			width: 38%;
+			position: relative;
+			top: 7px;
+			
+		}
+		#dealone {
+			font:13px Arial,Helvetics,Sans,sans-serif,"Sans serif";
+			color: #37454D;
+			margin-right: 323px;
+		}
+		#dealtwo {
+			font:14px Arial,Helvetics,Sans,sans-serif,"Sans serif";
+			margin-right: 124px;
+			position: relative;
+			color: #316300;
+			top: -6px;
+		}
+		#deal-btn {
+			font:14px Arial,Helvetics,Sans,sans-serif,"Sans serif";
+			background-color: #428500;
+			padding: 6px 20px 6px 12px;
+			color: white;
+			font-weight: 700;
+			float: right;
+			position: relative;
+			top: -9px;
+			right: 16px;
+		}
+		#deal-price {
+			color: #316300;
+			font:14px Arial,Helvetics,Sans,sans-serif,"Sans serif";
+			font-size: 20px;
+			float: left;
+			margin-left: 15px;
+			position: relative;
+			top: -4px;
+		}
+		.km {
+			display: inline-block;
+		    float: left;
+		    position: relative;
+		    top: -26px;
+		    margin-left: 19px;
+		    font:15px Arial,Helvetics,Sans,sans-serif,"Sans serif";
+		    color: #37454D;
+		}
+		.h-km-block {
+			/*background: red;*/
+		    height: 20px;
+		    width: 40%;
+		    position: relative;
+		    top: -16px;
+		    margin-right: 246px;
+		    border-bottom: 1px solid #cdd4dc ;
+		}
+		#rate-block {
+			display: inline-block;
+		    float: left;
+		    position: relative;
+		    right: 185px;
+		    top: -17px;
+		}
+		#rate {
+			background: green;
+		    color: white;
+		    font: 12px Arial,Helvetics,Sans,sans-serif,"Sans serif";
+		    padding: 1px 5px 1px 4px;
+		    border-radius: 13px;
+		}
+		#rate-text {
+			margin-left: 6px;
+		    font: 14px Arial,Helvetics,Sans,sans-serif,"Sans serif";
+		    font-weight: 700;
+		}
+		#NoOfRating {
+			margin-left: 6px;
+			font: 14px Arial,Helvetics,Sans,sans-serif,"Sans serif";
+		}
+		li {
+			list-style-type: none;
+		}
+		#book {
+			border: 1px solid black;
+    		height: 54px;
+    		padding-right: 22px;
+    		float: left;
+		}
+		#inner-book {
+			position: relative;
+		    top: -7px;
+		    /* float: left; */
+		    /* right: 19px; */
+		    margin-right: 11px;
+		    height: 25px;
+		    float: left;
+		    padding-left: 7px;
+		    font-family:  Arial,Helvetics,Sans,sans-serif,"Sans serif";
+		}
+		#end-lp {
+			display: inline-block;
+		    border: 1px solid;
+		    margin-left: 8px;
+		    padding-right: 55px;
+		    height: 54px;
+		}
+
+
+
+
+	</style>
+	<div style="display: inline-block;">
+		<center>
+			<div id="first-bar">
+				<img id="h-image" src="H1.png">
+				<div style="display: inline-block;" id="h-name-block">
+					<h3 id="h-name">
+						Hotel Airport City Bengaluru
+					</h3>
+					<p style="float: left;
+					margin: 0;
+					position: relative;
+					top: -23px; font-family:sans-serif; 
+					font-size: 14px;
+					margin-left: 6px;">Hotel</p>
+				</div>
+				 <div id="deal-cancel">
+					<p id="dealone">Agoda</p>
+					<p id="dealtwo">
+						<i class="fa fa-check-circle" style="color: #428500; font-size: 17px;"></i>
+						<span style="color: green;">Free cancellation</span> <span style="color: #316300;font:12px Arial,Helvetics,Sans,sans-serif">- Pay at the property</span></p>
+					<p id="dealthree"><span id="deal-price">₹1,456</span> <span id="deal-btn">View Deal</p>
+				</div> 
+				<div class="h-km-block">
+					<P class="km"><i  class="fa fa-map-marker"></i><span style="margin-left: 10px;">23.7 km to City centre</span><i style="position: relative;left: 215px;font-size: 18px;top: 2px;" class="fa fa-angle-down"></i></P>
+				</div>
+				<div id="rate-block">
+					<p><span id="rate">8.4</span><span id="rate-text">Very good</span><span id="NoOfRating">(10 reviews)</span><i style="position: relative;left: 209px;"class="fa fa-angle-down"></i></p>
+
+				</div>
+				<div style="display: inline-block;">
+					<div id="book">
+						<ul id="inner-book">
+							<li style="color: #37454d;font-size: 13px;">Booking.com</li>
+							<li style="float:left;margin-top: 5px;font-weight: 700;color: #37454d;">₹1,456</li>
+						</ul>
+					</div>
+					<div style="display: inline-block;" id="end-lp">
+						<ul id="low-price">
+							<li style="color: #37454d;font-size: 13px;right:37px;position: relative;top: -8px;">Our lowest price</li>
+							<li style="float:left;margin-top: 5px;font-weight: 700;color: #37454d;
+							position: relative;top: -8px;right: 30px;">₹1,456<span style="margin-left: 5px;
+							font-size: 14px;">Agoda</span> <i style="position: relative;
+							left: 58px;font-size: 19px;top: -7px;font-weight: 800;" class="fa fa-angle-down"></i></li>
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+		
+		</center>	
+	</div>
+</body>
+</html>
